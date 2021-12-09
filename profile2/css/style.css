@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'nunito',sans-serif;
+}
+
+body{
+  background-color:    #ffffff  ;
+}
+
+.main-content{
+  /* min-height: 100vh; */
+  width: 70%;
+  margin: 2rem auto;
+  display:  grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.left-sec{
+  grid-column: span 2;
+  height: 100%;
+  background-color:   #581845
+;
+
+}
+.right-sec{
+  grid-column: span 4;
+  height: 100%;
+  padding-top: 0;
+  position: relative;
+  background-color:  #581845
+
+ ;
+}
+.left-content{
+  padding: 3rem;
+}
+.profile{
+  width: 100%;
+}
+.profile img{
+  width: 100%;
+
+}
+.objective-title{
+  font-size: 2rem;
+  color:  #f7f7f7;
+  margin-top: 4rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.education-title{
+  font-size: 2rem;
+  color:  #f7f7f7;
+  margin-top: 5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.timeline-1{
+  text-align: center;
+  font-size: 1.5rem;
+  color:  #718096;
+  margin-top: 1rem;
+}
+.timeline-2{
+  text-align: center;
+  font-size: 1.5rem;
+  color:  #718096;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.experience-title{
+  font-size: 2rem;
+  color:  #f7f7f7;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.skills-title{
+  font-size: 2rem;
+  color:  #f7f7f7;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.skill-para{
+  font-size: .5em;
+  color: #94D9EA;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.right-contect{
+  color: #2F80ED;
+  position: relative;
+  padding: 3rem;
+}
+.name{
+  font-size: 1.5rem;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+  top:30px;
+}
+
+.objectives-para{
+  color: black;
+  font-size: 1.2rem;
+}
+.objectives-para p{
+  margin: 150px 0 0 0;
+}
+.education-titles{
+  color: #2F80ED;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+    margin: 65px 0 0 0;
+
+
+}
+.education-para1{
+  margin: 90px 0 0 0;
+}
+.sub-title{
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+.Subjects{
+  color: BLACK;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+.experience-titles1{
+  color: #2F80ED;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 60px 0 0 0;
+}
+.experience-para1{
+  color: black;
+  font-size: 1.2rem;
+  margin: 20px 0 0 0;
+}
+.experience-titles2{
+  color: #2F80ED;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 60px 0 0 0;
+}
+.experience-para2{
+  color: black;
+  font-size: 1.2rem;
+  margin: 10px 0 0 0;
+}
+.skills-list ul{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 50px 0 0 0;
+}
+@media screen and (max-width:480px){
+  .leftsec{
+    grid-column: span 2;
+  }
+  .rightsec{
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width:600px){
+  .leftsec{
+    grid-column: span 2;
+  }
+  .rightsec{
+    grid-column: span 4;
+  }
+}
