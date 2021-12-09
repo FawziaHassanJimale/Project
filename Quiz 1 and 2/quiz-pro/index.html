@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz form</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.6.0.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <!-- <div class="jumbotron"> -->
+          <h1>html & css quiz</h1>
+          <h2></h2>
+        </div>
+        <div class="well">
+          <!--  quiz form -->
+
+          <form id="questions" name="questions" class="somaliquiz" action="score.html">
+            <p id="top"></p>
+
+            <p><b> 1) What is html ?</b> </p>
+            <input type="radio" name="question1" value="answer">  html is a Language of programing <br>
+            <input type="radio" name="question1" value="0"> html is for photoshop <br>
+            <input type="radio" name="question1" value="0"> html is language for buisnis
+            </div>
+
+            <div class="well">
+            <p><b>2) html is ?</b></p>
+            <input type="radio" name="question2" value="0"> hypertext markup language <br>
+            <input type="radio" name="question2" value="0"> hyper text buisnis language  <br>
+            <input type="radio" name="question2" value="answer">  all of them
+            </div>
+
+            <div class="well">
+            <p><b> 3) is html easy?</b></p><br>
+            <input type="radio" name="question3" value="0">   Yes<br>
+            <input type="radio" name="question3" value="0">   Maybe<br>
+            <input type="radio" name="question3" value="answer">  No<br>
+            </div>
+
+            <div class="well">
+            <p><b>4) What does CSS stand for?.</b></p>
+            <input type="radio" name="question4" value="0"> culculating<br>
+            <input type="radio" name="question4" value="answer"> 
+            Cascading Style Sheet<br>
+            <input type="radio" name="question4" value="0"> cascading stylish projects<br>
+            </div>
+
+            <div class="well">
+            <p><b>5) How many styles are there in CSS?? </b></p>
+            <input type="radio" name="question5" value="0"> 2<br>
+            <input type="radio" name="question5" value="0"> 3<br>
+            <input type="radio" name="question5" value="answer"> 1<br>
+            </div>
+
+            <div class="well">
+            <p><b>6) is html case sensitive? </b></p>
+            <input type="radio" name="question6" value="0"> yes <br>
+            <input type="radio" name="question6" value="answer"> no<br>
+            <!-- <input type="radio" name="question6" value="0"> <br> -->
+            </div>
+
+            <div class="well">
+            <p><b>7)What are the 4 types of CSS? . </b></p>
+            <input type="radio" name="question7" value="answer"> Inline CSS.<br>
+            <input type="radio" name="question7" value="0"> Internal or Embedded CSS.<br>
+            <input type="radio" name="question7" value="0"> non of them<br>
+            </div>
+
+          
+
+            <button id="submit1" type="submit" name="button">see results</button>
+            <button type="reset" name="button" id="reset-btn"> <a href="#top" class="reset">restart</a> </button> <br>
+          </form>
+
+          <div class="move">
+            <p id="message"></p>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </body>
+</html>
